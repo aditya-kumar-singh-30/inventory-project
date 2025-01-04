@@ -3,7 +3,7 @@
 import { useState } from 'react'
 import Link from 'next/link'
 import { useRouter } from 'next/navigation'
-import { FaGithub, FaGoogle } from 'react-icons/fa'
+ import { FaGithub, FaGoogle } from 'react-icons/fa'
 
 export default function Login() {
   const [isLoading, setIsLoading] = useState(false)
